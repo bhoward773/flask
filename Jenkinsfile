@@ -9,6 +9,7 @@ pipeline {
     stage('Git') {
       steps {
         git(url: 'https://github.com/bhoward773/flask.', branch: 'main')
+        git(url: 'https://github.com/bhoward773/flask', branch: 'main')
       }
     }
 
